@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo{
+    @apply lg:w-40 md:w-32 w-24 
+}
+
+.bg-image{
+    background-image: url(/public/img/bg-image.jpg);
+    background-position: center;
+    box-shadow: inset 0px 0px 300px 109px rgba(0,0,0,1);
+}
+
+.v-content{
+    @apply bg-black h-auto w-full mt-2 text-white px-[45px] py-[70px] flex justify-center 
+}
+
+.try-w {
+    @apply  lg:flex  justify-center items-center lg:max-w-5xl
+}
+
+.v-content-image{
+    @apply  h-auto w-[60%] 
+}
+.try-w-word{
+    @apply pr-14
+}
+
+.try-w-word p{
+    @apply pr-20
+}
+.qustions{
+    @apply bg-[#222222] mb-2 w-[900px] flex justify-between p-3 px-5 text-2xl
+}
